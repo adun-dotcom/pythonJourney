@@ -1,11 +1,9 @@
-#print(2+3)
+#This program will add two numbers
 
-print(str(0))
-print(str(-3.14))
-int('42')
-int(-99)
-int(1.25)
-int(1.99)
-float('3.14')
-float (10)
-
+a = ()
+b = ()
+print('Type first no here')         #ask user to type np
+a = float(input())                  #collects integer and turns it a float
+print ('Type second no here')
+b = float(input())
+print('The result is ' + str(a + b))    #prints out the addition of the first no and the second no
