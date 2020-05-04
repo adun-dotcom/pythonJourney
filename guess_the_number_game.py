@@ -11,9 +11,9 @@ for guessesTaken in range(1, 7):        #this say the number of guesses that can
     guess = int(input())                #this collects the guess and converters it to an integer so it can be compared to secretNumber
 
     if guess < secretNumber:
-        print('Your guess is too low')
+        print('Your guess is too low.')
     elif guess > secretNumber:
-        print('Your guess is too high')
+        print('Your guess is too high.')
     else:
         break                           #this is the codition for correct guess!
 
