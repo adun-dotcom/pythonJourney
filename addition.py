@@ -1,8 +1,8 @@
-#This program will add two numbers
+#This program will do an addition of two numbers
 
 a = ()
 b = ()
-print('Type first no here')         #ask user to type np
+print('Type first no here for   ')         #ask user to type np
 a = float(input())                  #collects integer and turns it a float
 print ('Type second no here')
 b = float(input())
